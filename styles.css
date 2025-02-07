@@ -1,0 +1,22 @@
+/* styles are reflective of google branding guidelines found on the Partnering Hub https://partnermarketinghub.withgoogle.com/brands/google-assistant/overview/color-palette-and-typography/ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.nav {
+    position: absolute;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.search-box {
+    width: 800px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
