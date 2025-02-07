@@ -1,11 +1,18 @@
 /* styles are reflective of google branding guidelines found on the Partnering Hub https://partnermarketinghub.withgoogle.com/brands/google-assistant/overview/color-palette-and-typography/ */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .nav {
     position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
 .search-container {
@@ -13,13 +20,17 @@ body {
 }
 
 .search-box {
-    width: 800px;
+    width: 600px;
+    padding: 12px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    outline: none;
 }
 
 .buttons {
     margin-top: 20px;
 }
-
 
 .logo-container {
     display: flex;
