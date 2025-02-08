@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Images Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <div class="nav">
+        <a href="index.html">Google Search</a>
+    </div>
+
+    <!-- Google Images logo -->
+    <div class="logo-container">
+        <img src="Google_Images_Logo.png" alt="Google Images Logo" class="logo">
+    </div>
+
+    <!-- Google Images search bar/form -->
+    <div class="google-search-container">
+        <form action="https://www.google.com/search" method="GET">
+            <!-- Hidden input to specify that this is an image search-->
+            <input type="hidden" name="tbm" value="isch"> 
+
+            <!-- Search bar for image search -->
+            <input type="text" name="q" class="google-search-box" placeholder="Search images">
+            <div class="google-search-buttons">
+                <!-- Google Search Button -->
+                <input type="submit" value="Google Search" class="google-btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

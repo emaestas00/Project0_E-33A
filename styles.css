@@ -1,4 +1,4 @@
-/* styles are reflective of google branding guidelines found on the Partnering Hub https://partnermarketinghub.withgoogle.com/brands/google-assistant/overview/color-palette-and-typography/ */
+/* Google Search Page and Google Image Search Page Styling*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -15,23 +15,34 @@ body {
     right: 20px;
 }
 
-.search-container {
+.google-search-container {
     text-align: center;
 }
 
-.search-box {
+.google-search-box {
     width: 600px;
-    padding: 12px;
+    padding: 12px 20px;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     font-size: 16px;
     outline: none;
 }
 
-.buttons {
+.google-search-buttons {
     margin-top: 20px;
 }
 
+.google-btn {
+    background-color: #f8f9fa; 
+    border: 1px solid #dfe1e5;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+}
+/* General Logo Styling */
 .logo-container {
     display: flex;
     justify-content: center;
@@ -39,5 +50,63 @@ body {
 }
 
 .logo {
-    width: 80px;
+    width: 400px;
+}
+
+/* Advanced Search Section */
+.advanced-search-container h2 {
+    font-size: 32px;
+    color: #d93025; 
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.advanced-search-container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #3b3b3b; 
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+/* Left-aligned label and input fields */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-right: 80px;
+}
+.form-group label {
+    width: 250px;  /* Fixed width for alignment */
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+
+.advanced-search-box {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 2px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.advanced-btn {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 16px;
+    border: 1px solid #4285F4;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.advanced-btn:hover {
+    background-color: #357ae8;
+    border-color: #357ae8;
 }

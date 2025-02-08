@@ -7,19 +7,28 @@
 </head>
 
 <body>
+    <!-- Navigation bar -->
     <div class="nav">
-        <a href="googleimage.html">Imageas</a>
+        <a href="googleimage.html">Images</a>
         <a href="googleadvanced.html">Advanced Search</a>
     </div>
+
+    <!-- Google logo -->
     <div class="logo-container">
-        <img src="Google_2015_logo.png" alt="Google Logo" class="logo">
+        <img src="Google_Main_Logo.png" alt="Google Logo" class="logo">
     </div>
-    <div class="search-container">
+
+    <!-- Google search bar/form -->
+    <div class="google-search-container">
         <form action="https://www.google.com/search">
-            <input type="text" name="q" class="search-box">
+            <input type="text" name="q" class="google-search-box">
+            <br>
+            <br>
             <div class="buttons">
-                <input type="submit" value="Google Search" class="btn">
-                <input type="submit" name="btnI" value="I'm Feeling Lucky" class="btn" formmethod="GET" formaction="https://www.google.com/search?btnI=1">
+                <!-- Google Search -->
+                <input type="submit" value="Google Search" class="google-btn">
+                <!-- I'm Feeling Lucky to return user to the top search result -->
+                <input type="submit" name="btnI" value="I'm Feeling Lucky" class="google-btn" formmethod="GET" formaction="https://www.google.com/search?btnI=1">
             </div>
         </form>
     </div>
